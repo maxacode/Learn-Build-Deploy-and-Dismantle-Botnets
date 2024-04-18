@@ -1,18 +1,18 @@
 """
-Create a list of groceries with an available budget
-Iterate the list for budget calculation. 
-Simulate grocery shopping
-Exit to leave store 
-Print how many Items of each they have. Ex:
-3 Apples
-2 Lemons
-50 Dollars left
+1. Create a list of groceries with an available budget
+2. Iterate the list for budget calculation. 
+3. Simulate grocery shopping
+4. Exit to leave store 
+5. Print how many Items of each they have. Ex:
+        3 Apples
+        2 Lemons
+        50 Dollars left
 
 """
 
 # Define groceries and their prices
 groceries = {"Apple": 1, "Lemon": 2, "Bread": 5, "Milk": 3}
-budget = 100  # Starting budget
+budget = 10  # Starting budget
 
 # Shopping loop
 shopping_cart = {}  # Dictionary to store items and quantities
