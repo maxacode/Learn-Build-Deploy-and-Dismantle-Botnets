@@ -9,7 +9,7 @@
 # Counting the bonus step 3
 bonusStep = 0 
 
-with open('Lab 6: Log File.txt', 'r') as file:
+with open('Lab 6 - Log File.txt', 'r') as file:
     for line in file:
         fields = line.strip().split(',')
         if len(fields) == 6:
