@@ -6,6 +6,9 @@
         #Customizations
         #Logg all chat messages
         #Logg connection info
+
+
+""" """
 try:
     import sys, logging
 
