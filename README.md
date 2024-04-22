@@ -31,7 +31,6 @@
 - How to block C2 on local networks
 - How Governments and Big Tech companies take down Global C2 networks.
 
-
 ## Build it!
 - Server Environment: AWS EC2, Security Groups, Github pipeline, etc
 - C2 Channel How the client and server will communicate.  ex : Python Socket Tunnel, SMTP, or DNS. g
