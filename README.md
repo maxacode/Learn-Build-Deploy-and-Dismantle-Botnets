@@ -1,3 +1,6 @@
+# Course Title: Learn, Build, Deploy, and Dismantle C2/Botnets
+
+
 # Course Summary:
 
 - This comprehensive 10-hour course offers an in-depth exploration into the creation, deployment, and dismantling of botnets and Command and Control (C2) infrastructures. 
@@ -27,3 +30,9 @@
 - How to detect C2 from Malware
 - How to block C2 on local networks
 - How Governments and Big Tech companies take down Global C2 networks.
+
+
+## Build it!
+- Server Environment: AWS EC2, Security Groups, Github pipeline, etc
+- C2 Channel How the client and server will communicate.  ex : Python Socket Tunnel, SMTP, or DNS. g
+- Botnet Features: All features the botnet should have, ex: Keylogger, Remote Shell
