@@ -1,11 +1,12 @@
 # Course Summary:
 
+## 10 Hour Course designed to teach the listeners
 ## Section  1:
 - Review of Python Basics
 - How Python Sockets work 
 - Coding Python Sockets
 - 11 total python Labs 
-- 2 CTF Style labs
+- 2 CTF Style Labs
 
 ## Session 2:
 - Review Command and Control network topologies. 
