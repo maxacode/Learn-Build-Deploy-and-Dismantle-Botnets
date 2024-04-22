@@ -6,9 +6,9 @@
 
 """ 
 
-1# Step 1 and 2
-age = int(input("How old are you? "))
 
+# Step 1 and 2
+age = int(input("How old are you? "))
 # step 3 and 4
 if age >= 18:
   print("You are an adult so you can drink.")
