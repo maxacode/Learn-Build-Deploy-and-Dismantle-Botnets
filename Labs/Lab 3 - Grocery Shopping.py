@@ -1,4 +1,4 @@
-"""
+b"""
 1. Create a list of groceries with an available budget
 2. Iterate the list for budget calculation. 
 3. Simulate grocery shopping

@@ -1,1 +1,0 @@
-/usr/bin/python3 "/Users/maks.derevencha/Documents/Code-Projects/Learn-Build-Deploy-and-Dismantle-Botnets/Lab 6: Parsing Log File.py"
