@@ -3,8 +3,8 @@
 import socket
 print("Starting Client")
 s = socket.socket()
-s.connect(("127.0.0.1", 4323))
-print("Connected to Server")
+s.connect(("127.0.0.1", 8084))
+print("Connected to Server - Look at Wireshark")
 s.recv(2048).decode()
 s.recv(2048).decode()
 print(s.recv(2048).decode())

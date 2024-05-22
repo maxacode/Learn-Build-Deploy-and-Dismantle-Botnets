@@ -1,7 +1,10 @@
 # Course Title: Learn, Build, Deploy, and Dismantle C2/Botnets
 
-
+# Course Goal:
+    - Understand at a level where you can teach the basics of this content to someone else.
+    - Try and Fail the Labs as many times as it takes. Only look at solution
 # Course Summary:
+
 
 - This comprehensive 10-hour course offers an in-depth exploration into the creation, deployment, and dismantling of botnets and Command and Control (C2) infrastructures. 
 

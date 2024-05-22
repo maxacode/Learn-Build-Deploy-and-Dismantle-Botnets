@@ -12,10 +12,15 @@ services = {
     "smtp": 25,
     "dns": 53 }
 # Ask the user for a service name
-service_name = input("Enter a service name: ")
-# Check if the service name exists in the dictionary
-if service_name in services:
-    print("Service:", service_name)
-    print("Port number:", services[service_name])
-else:
-    print("Service not found.")
+counter = 0 
+while counter < 3:
+    service_name = input("Enter a service name or exit to close: ")
+    # Check if the service name exists in the dictionary
+    counter += 1
+    if service_name == "exit":
+        break
+    if service_name in services:
+        print("Service:", service_name)
+        print("Port number:", services[service_name])
+    else:
+        print("Service not found.")

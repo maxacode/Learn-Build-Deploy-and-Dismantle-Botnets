@@ -24,6 +24,8 @@ try:
     msgToSingleClient = "/msg"
 
     #Port and IP config options. Either static or ask on launch
+    print("You can hard code IP/Port instead of manually adding thme")
+
     #port = 12000
     #ip = '127.0.0.1'
     ip = input("Enter an IP/Hose address of Server (IP or Domain): ")
@@ -114,7 +116,7 @@ try:
                 break
             try:
              #   print(handle)
-                message = '{}: {}'.format(handle, input(''))
+                message = '{}: {}'.format(handle, input('Chat MSG Here: '))
                 logging.info(message)
              ##   print('before if message')
                 if message[len(handle)+2:].startswith('/'):

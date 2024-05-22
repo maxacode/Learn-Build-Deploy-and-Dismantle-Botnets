@@ -9,7 +9,8 @@
 # Counting the bonus step 3
 bonusStep = 0 
 
-with open('Lab 6 - Log File.txt', 'r') as file:
+#2024-01-29 14:50:00,10.0.0.9,INTERNAL,ALLOW,inbound,web4.example.com
+with open('Labs/Lab 6 - Log File.txt', 'r') as file:
     for line in file:
         fields = line.strip().split(',')
         if len(fields) == 6:

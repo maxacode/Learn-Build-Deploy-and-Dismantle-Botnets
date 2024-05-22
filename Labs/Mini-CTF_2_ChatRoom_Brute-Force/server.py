@@ -20,6 +20,7 @@ try:
     #from socket import *
     from threading import Thread
     #Port and IP config options. Either static or ask on launch
+    print("You can hard code IP/Port instead of manually adding thme")
     #port = 12000
     #ip = '127.0.0.1'
     ip = input("Enter an IP address of Server: ")
@@ -71,7 +72,8 @@ try:
         with open('adminAccounts.encrypted','r') as file:
             adminAccounts = dict(map(str.split, file))
             print(f'These are the existing admin accounts: {adminAccounts}\n')
-            cont = input("Would you like to add more admin Accounts? (y/n): ")
+            cont = 'n'
+            #cont = input("Would you like to add more admin Accounts? (y/n): ")
             if cont == 'n':
                 break
         adminUsers = input("\nEnter a username for a admin account (Type in 'done' when finished): ")

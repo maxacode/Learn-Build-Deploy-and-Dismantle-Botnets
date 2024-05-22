@@ -14,7 +14,7 @@ b"""
 groceries = {"Apple": 1, "Lemon": 2, "Bread": 5, "Milk": 3}
 budget = 10  # Starting budget
 
-# Shopping loop
+# bShopping loop
 shopping_cart = {}  # Dictionary to store items and quantities
 while True:
   # Display options
@@ -46,7 +46,7 @@ while True:
   if total_cost > budget:
     print(f"Sorry, insufficient funds. That would cost ${total_cost}.")
   else:
-    budget -= total_cost
+    budget = budget - total_cost
     if item_name in shopping_cart:
       shopping_cart[item_name] += quantity
     else:

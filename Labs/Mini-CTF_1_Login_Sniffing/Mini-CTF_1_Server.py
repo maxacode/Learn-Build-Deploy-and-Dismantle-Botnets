@@ -7,6 +7,8 @@ hash = "f806fc5a2a0d5ba2471600758452799c"
 
 password = "28eed053fa28fe8e5a9f59eb925c090b"
 port = 8084
+print("Socket port is: 8084")
+
 while True: 
     try:
 
@@ -17,6 +19,7 @@ while True:
         s.listen(30)
         conn, addr = s.accept()
         print(addr)
+        print("Start Wireshark Capture prior to starting Client.")
         conn.send("database of users| username: bWFrcwo= password: aXN0aGViZXN0Cg==".encode()) #S1
 
         conn.send(f"Send the server a message with the plain text value of: {hash} ".encode()) #s2
@@ -30,7 +33,7 @@ while True:
         #print(hashlib.md5("whatever your string is".encode('utf-8')).hexdigest())
 
 
-
+        print("Checing if it is correct")
         if hashFromUser != hash:
             conn.send("Invalid Plain Text".encode())#S4
             conn.close()
