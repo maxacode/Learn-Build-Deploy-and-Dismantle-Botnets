@@ -12,7 +12,7 @@ If wrong, Server tells client “Wrong Credentials”
 """
 # CLIENT 
 import socket
-port = 12347
+port = 1234
 def client():
     # Connect to the server
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

@@ -11,11 +11,14 @@ If wrong, Server tells client “Wrong Credentials”
 """
 # SERVER 
 import socket
-port = 12347
+port = 1234
 def server():
-    # Known username and password
+    # Known username and password - not good practice
+    # Better to read a Salted Hash from a File
     USERNAME = 'admin'
     PASSWORD = 'password'
+
+
 
     # Set up the socket
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

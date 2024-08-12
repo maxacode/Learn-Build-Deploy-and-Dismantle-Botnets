@@ -21,8 +21,7 @@ while True:
   print("\nWelcome to the Grocery Store!")
   print(f"Budget: ${budget}")
   print("Available Items:")
-  for item, price in groceries.items():
-    print(f"- {item} (${price})")
+  print(groceries)
 
   # Get user input
   item_name = input("\nEnter item name (or 'exit' to leave): ").title()

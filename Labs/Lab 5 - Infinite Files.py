@@ -13,7 +13,6 @@ try:
     while True:
       # Get user input
       text = input("Enter text to write (type 'exit' to stop): ")
-
       # Check for exit condition
       if text.lower() == "exit":
         break

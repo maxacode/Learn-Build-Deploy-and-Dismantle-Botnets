@@ -3,10 +3,7 @@ Ask the User for their Age.
 Perform casting to convert Step 1 to int from str. 
 Create an if-else statement to verify the age: ex 18 
 Print result to User if they are allowed or not to buy
-
-
 """ 
-
 
 # Step 1 and 2
 age = int(input("How old are you? "))

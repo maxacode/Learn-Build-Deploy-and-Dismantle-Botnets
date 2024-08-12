@@ -860,6 +860,7 @@
 2024-01-29 15:34:58,172.16.0.75,DMZ,DENY,outbound,devops.example.com
 2024-01-29 14:50:00,10.0.0.9,INTERNAL,ALLOW,inbound,web4.example.com
 2024-01-29 14:52:22,172.16.0.45,DMZ,DENY,outbound,git.example.com
+log file
 2024-01-29 14:54:44,192.168.1.8,EXTERNAL,ALLOW,outbound,api.example.com
 2024-01-29 14:57:06,10.0.0.10,INTERNAL,ALLOW,inbound,db.example.com
 2024-01-29 14:59:28,172.16.0.50,DMZ,DENY,outbound,ssh.example.net

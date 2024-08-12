@@ -35,7 +35,8 @@ def main():
     elif operation == '-':
         print("Result:", subtract(num1, num2))
     elif operation == '*':
-        print("Result:", multiply(num1, num2))
+        result = multiply(num1, num2)
+        print(result)
     elif operation == '/':
         print("Result:", divide(num1, num2))
     else:
